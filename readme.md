@@ -19,6 +19,10 @@ python prepro_dict.py
 The file dict_synonym.txt is from "https://github.com/guotong1988/chinese_dictionary/blob/master/dict_synonym.txt"
 ```
 
+* STEP 2. data
+
+Our dataset (TCNP) is released [here](https://drive.google.com/file/d/1hYq805HqxES3cm1NMkVRkq7nJ7CUixN_/view?usp=sharing).
+
 ## Train
 ```
 python train.py
