@@ -71,6 +71,6 @@ def generate_dict(dict_fpath, vocab_fpath, in_fpath, out_fpath, max_paraph_dict=
     print("end!")
     return
 
-generate_dict("data/dict_synonym.txt", "data/jieba.vocab", "data/tcnp.dev.src", "data/dev_paraphrased_pair_pos.txt")
-# generate_dict("data/dict_synonym.txt", "data/jieba.vocab", "data/tcnp.train.src", "data/train_paraphrased_pair_pos.txt")
-# generate_dict("data/dict_synonym.txt", "data/jieba.vocab", "data/tcnp.test.src", "data/test_paraphrased_pair_pos.txt")
+generate_dict("data/dict_synonym.txt", "data/jieba.vocab", "data/tcnp.dev.src", "data/train_paraphrased_pair.txt")
+# generate_dict("data/dict_synonym.txt", "data/jieba.vocab", "data/tcnp.train.src", "data/train_paraphrased_pair.txt")
+# generate_dict("data/dict_synonym.txt", "data/jieba.vocab", "data/tcnp.test.src", "data/train_paraphrased_pair.txt")
