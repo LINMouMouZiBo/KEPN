@@ -13,6 +13,7 @@ class Transformer:
     def __init__(self, hp):
         self.hp = hp
         self.token2idx, self.idx2token = load_vocab(hp.vocab)
+        self.hp.vocab_size = len(self.token2idx)
         self.embeddings = get_token_embeddings(self.hp.vocab_size, self.hp.d_model, self.token2idx, self.hp.embedding_file, zero_pad=True)
 
     def encode(self, xs, training=True):
